@@ -1,0 +1,305 @@
+{
+	"info": {
+		"_postman_id": "386e3406-8e24-45f3-bc13-e72a4367ebad",
+		"name": "Pokedex API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Named",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Berries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/berry/{id or name}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"berry",
+						"{id or name}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BerryFirmness",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/berry-firmness/{id or name}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"berry-firmness",
+						"{id or name}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BerryFlavors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/berry-flavor/{id or name}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"berry-flavor",
+						"{id or name}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ContestTypes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/contest-type/{id or name}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"contest-type",
+						"{id or name}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ContestEffects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/contest-effect/{id}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"contest-effect",
+						"{id}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SuperContestEffects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/super-contest-effect/{id}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"super-contest-effect",
+						"{id}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Encounters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/encounter-method/{id or name}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"encounter-method",
+						"{id or name}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EncounterConditions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/encounter-condition/{id or name}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"encounter-condition",
+						"{id or name}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EvolutionChains",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/evolution-chain/{id}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"evolution-chain",
+						"{id}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EvolutionTriggers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/evolution-trigger/{id or name}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"evolution-trigger",
+						"{id or name}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Abilities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/ability/{id or name}/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"ability",
+						"{id or name}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PokemonLocationAreas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/{id or name}/encounters",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"{id or name}",
+						"encounters"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
