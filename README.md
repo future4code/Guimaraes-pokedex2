@@ -1,9 +1,9 @@
 # POKEDEX
 
 Nome dos integrantes: 
-Caio Ramos
-Lucas Aversi
-Renan Arimatea
+-Caio Ramos
+-Lucas Aversi
+-Renan Arimatea
 
 Link do Surge: www.link.com.br
 
