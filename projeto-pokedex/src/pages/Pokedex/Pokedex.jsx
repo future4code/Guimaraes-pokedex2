@@ -11,6 +11,11 @@ const Pokedex = () => {
     <PokedexBox>
       <h3>Esta é sua Pokedex</h3>
 
+      <div>
+      {/* inserir pokedex */}
+
+      </div>
+
      <BackBtn
         onClick={() => {
           goBack(navigate);
