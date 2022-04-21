@@ -10,17 +10,16 @@ import Pokedex from "../pages/Pokedex/Pokedex";
 
 const Router = () => {
   return (
-    
     <BrowserRouter>
-      <Header/>
-      <NavbarMenu/>
+      <Header />
+      <NavbarMenu />
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route exact path="/poke/detail" element={<PokeDetail />} />
         <Route exact path="/poke/pokedex" element={<Pokedex />} />
         <Route exact path="*" element={<ErrorPage />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 };

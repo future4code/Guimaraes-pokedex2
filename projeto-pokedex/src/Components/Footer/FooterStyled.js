@@ -7,7 +7,7 @@ export const FooterContainer = styled.div`
     flex-direction: row;
     align-items: center;
     padding: 1em;
-
+    height: 6vh;
     border: 3px solid black;
     padding: .5em;
 

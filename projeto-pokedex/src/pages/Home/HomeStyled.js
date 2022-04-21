@@ -102,7 +102,6 @@ export const InfoBox = styled.div`
 
 export const BtnStyled = styled.button`
 
-
     font-family: "Pokefont";
     font-size: 1em;
 
