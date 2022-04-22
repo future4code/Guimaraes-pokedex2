@@ -2,41 +2,34 @@ import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import GlobalStateContext from "../../global/GlobalStateContext";
 import { goBack, goToPokeDetail } from "../../Navigator/navigation";
-import { PokedexBox, BackBtn } from "./PokedexStyled";
+
 import { Pagination } from "@mui/material";
 
-const Pokedex = () => {
+const WildArea = () => {
   const navigate = useNavigate();
-
-  const { getPokeByName, removePokeFromDex, onChangePage } =
+  const { chosenPoke, onChangePage, addToPokedex } =
     useContext(GlobalStateContext);
-
   return (
-    <PokedexBox>
-      <h3>Esta é sua Pokedex</h3>
-      <BackBtn
+    <div>
+      <button
         onClick={() => {
           goBack(navigate);
         }}
       >
         Voltar
-      </BackBtn>
-
-      {getPokeByName?.map((poke) => {
+      </button>
+      {chosenPoke?.map((poke) => {
         return (
           <div>
-            <p key={poke.id}> {poke.name} </p>
+            <p key={poke.id}>{poke.name}</p>
             <img
-              width={"50px"}
+              width={"100px"}
               src={poke.sprites.other.dream_world.front_default}
-              alt={poke.name}
+              alt={chosenPoke.name}
             />
-            <button
-              onClick={() => {
-                removePokeFromDex(poke);
-              }}
-            >
-              Remover
+            <button onClick={() => addToPokedex(poke)}>
+              {" "}
+              Capturar Pokémon{" "}
             </button>
             <button
               onClick={() => goToPokeDetail(navigate, poke.name)}
@@ -50,8 +43,8 @@ const Pokedex = () => {
       <div>
         <Pagination count={20} color="primary" onChange={onChangePage} />
       </div>
-    </PokedexBox>
+    </div>
   );
 };
 
-export default Pokedex;
+export default WildArea;
