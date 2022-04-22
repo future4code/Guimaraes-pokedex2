@@ -7,6 +7,7 @@ import ErrorPage from "../pages/ErrorPage";
 import Home from "../pages/Home/Home";
 import PokeDetail from "../pages/PokeDetail/PokeDetail";
 import Pokedex from "../pages/Pokedex/Pokedex";
+import WildArea from "../pages/WildArea/WildArea";
 
 const Router = () => {
   return (
@@ -15,7 +16,8 @@ const Router = () => {
       <NavbarMenu />
       <Routes>
         <Route index path="/" element={<Home />} />
-        <Route exact path="/poke/detail" element={<PokeDetail />} />
+        <Route exact path="/poke/wildarea" element={<WildArea />} />
+        <Route exact path="/poke/details/:name" element={<PokeDetail />} />
         <Route exact path="/poke/pokedex" element={<Pokedex />} />
         <Route exact path="*" element={<ErrorPage />} />
       </Routes>
