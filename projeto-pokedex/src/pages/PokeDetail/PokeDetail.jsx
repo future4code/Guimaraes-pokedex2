@@ -23,6 +23,7 @@ const PokeDetail = () => {
 
   return (
     <PokeDetailBox>
+
       <BackBtn
         onClick={() => {
           goBack(navigate);
