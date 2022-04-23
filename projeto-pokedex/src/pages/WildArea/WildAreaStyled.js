@@ -2,25 +2,30 @@ import styled from "styled-components"
 
 
 export const PokeContainer = styled.div`
-
 background-color: rgba(0, 0, 0, 0.8);
 
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2em;
 
     padding: 2em;
     margin: auto;
+    overflow: scroll;
 `
 
 
 export const PokeMain = styled.div`
 
 
+
 `
 
 export const PokeCardContainer = styled.div`
+background-color: black;
+height: 55vh;
+width: 30vw;
+display: flex;
 
 
 `
