@@ -28,12 +28,7 @@ const WildArea = () => {
                       {" "}
                       Capturar Pokémon{" "}
                     </button>
-                    <button
-                      onClick={() => goToPokeDetail(navigate, poke.name)}
-                      key={poke.name}
-                    >
-                      Ver Detalhes
-                    </button>
+
                   </PokeBtn>
                 </PokeArea>
                 <PokeBackArea>

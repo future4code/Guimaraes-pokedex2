@@ -26,6 +26,8 @@ const Pokedex = () => {
         return (
           <div>
             <p key={poke.id}> {poke.name} </p>
+            
+
             <img
               width={"50px"}
               src={poke.sprites.other.dream_world.front_default}
