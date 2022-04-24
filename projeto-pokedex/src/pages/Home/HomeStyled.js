@@ -5,12 +5,27 @@ export const HomeBox = styled.div`
     min-height: 100vh;
     width: auto;
     text-align: center;
+
+    @media (max-width: 900px){
+        background-color: #000;
+        background-image: url(/imgs/PokedexWallpaper.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        padding: 5em 1em;
+    }
 `
 
 export const HomePageBg = styled.div`
 
     position: absolute;
     top: 0;
+    
+    @media (max-width: 900px){
+        display: none ;
+    }
 `
 
 export const VideoBg = styled.video`
@@ -20,6 +35,10 @@ export const VideoBg = styled.video`
     height: 100%;
     object-fit: cover;
     z-index: -1;
+
+    @media (max-width: 900px){
+        display: none;
+    }
 `
 
 export const InfoBox = styled.div`
@@ -97,12 +116,11 @@ export const InfoBox = styled.div`
         font-size: 1.8em;
     }
 
-    @media (max-width: 768px){
+    @media (max-width: 900px){
         width: 80vw;
-
+        margin: auto;
+        margin-bottom: 1em;
     }
-
-
 `
 
 export const BtnStyled = styled.button`

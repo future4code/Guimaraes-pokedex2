@@ -24,17 +24,14 @@ export const PokedexBox = styled.div`
     }
 
     @media (max-width: 900px){
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(1, 1fr);
-
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     @media (max-width: 375px){
         height: auto;
-
     }
-
 `
 
 export const PokeContainer = styled.div`
@@ -54,9 +51,9 @@ export const PokeContainer = styled.div`
     }
 
     @media (max-width: 900px){
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
 
     }
 
@@ -64,8 +61,6 @@ export const PokeContainer = styled.div`
         height: auto;
 
     }
-
-
 `
 
 export const PokeCardContainer = styled.div`
@@ -78,17 +73,19 @@ export const PokeCardContainer = styled.div`
 
     @media (max-width: 900px){
         width: 85vw;
-        height: 70vh;
-
+        height: 75vh;
 
     }
 
     @media (max-width: 600px){
         width:  75vw;
-        height: auto;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        padding-top: 2vh;
+        padding: 2vh;
+
+        font-size: .9em;
+        padding: .8em;
     }
 
     
@@ -161,22 +158,16 @@ export const PokeArea = styled.div`
     @media (max-width: 900px){
         width: 35vw;
         height: 57vh;
-
-
     }
+    
     @media (max-width: 600px){
         width: 55vw;
         height: auto;
-        
-
-        
-
     }
 
     @media (max-width: 375px){
         width: 65vw;
         height: auto;
-
     }
 `
 
@@ -209,20 +200,16 @@ export const PokeBackArea = styled.div`
     @media (max-width: 900px){
         width: 35vw;
         height: 57vh;
-
-
     }
+
     @media (max-width: 600px){
         width: 55vw;
         height: auto;
-
-
     }
 
     @media (max-width: 375px){
         width: 65vw;
         height: auto;
-
     }
 
 `
@@ -268,8 +255,6 @@ export const BackBtn = styled.div `
     text-align: center;
     align-items: center;
 
-
-    
     font-family: "Pokefont";
     font-size: 1em;
 
@@ -288,5 +273,4 @@ export const BackBtn = styled.div `
         transition: .3s;
         cursor: pointer;
     }
-    
 `

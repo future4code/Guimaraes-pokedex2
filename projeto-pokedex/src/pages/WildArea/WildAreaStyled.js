@@ -19,20 +19,14 @@ export const PokeContainer = styled.div`
     }
 
     @media (max-width: 900px){
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(1, 1fr);
-
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     @media (max-width: 375px){
         height: auto;
-
     }
-
-    
-
-
 
 `
 
@@ -49,25 +43,20 @@ export const PokeCardContainer = styled.div`
 
     @media (max-width: 900px){
         width: 85vw;
-
     }
 
     @media (max-width: 600px){
-        width: 70vw;
-
+        width: 80vw;
     }
 
     
     @media (max-width: 375px){
         width:  75vw;
-        height: auto;
+        height: 80vh;
 
         display: flex;
         flex-direction: column;
-
     }
-
-    
 `
 
 
@@ -93,7 +82,6 @@ export const PokeArea = styled.div`
 
     h3 {
         color: #FFF;
-        /* font-family: ; */
     }
 
     p > span {
@@ -107,18 +95,21 @@ export const PokeArea = styled.div`
     }
 
     @media (max-width: 900px){
-        width: 35vw;
+        width: 40vw;
+        font-size: .68em;
+        text-align: center;
 
     }
     @media (max-width: 600px){
-        width: 35vw;
-
+        width: 40vw;
+        font-size: .8em;
+        text-align: center;
     }
 
     @media (max-width: 375px){
-        width: 65vw;
+        width: 40vw;
         height: auto;
-
+        text-align: center;
     }
    
 `
@@ -150,13 +141,21 @@ export const PokeBackArea = styled.div`
     }
 
     @media (max-width: 900px){
-        width: 35vw;
+        width: 40vw;
+        font-size: .68em;
+        text-align: center;
+    }
 
+    @media (max-width: 600px){
+        width: 40vw;
+        font-size: .68em;
+        text-align: center;
     }
 
     @media (max-width: 375px){
-        width: 65vw;
+        width: 40vw;
         height: auto;
+        text-align: center;
     }
 
 `
@@ -189,8 +188,19 @@ export const PokeBtn = styled.div`
             transition: .3s;
             cursor: pointer;
         }
-    }
 
+        @media (max-width: 900px){
+            width: 11em;
+            font-size: .55em;
+            padding: .8em;
+        }
+
+        @media (max-width: 375px){
+            width: 11em;
+            font-size: .55em;
+            padding: .8em;
+        }
+    }
 
 `
 
@@ -204,7 +214,6 @@ export const PaginationBox = styled.div `
     justify-content: center;
     text-align: center;
     margin: auto;
-
 `
 
 export const BackBtn = styled.div `
