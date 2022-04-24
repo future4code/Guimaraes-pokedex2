@@ -22,7 +22,7 @@ Este projeto consiste em criar uma pokedex consumindo uma API, com informações
 
 ## 🔗 Link do Surge:
 
-[Pokedex]()
+[Pokedex](https://obsequious-tongue.surge.sh/)
 
 ## O que funciona?
 
