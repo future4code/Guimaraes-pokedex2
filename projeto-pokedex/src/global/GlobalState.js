@@ -40,7 +40,14 @@ const GlobalState = (props) => {
             }
           })
           .catch((err) => alert(err));
+
+          const image = `https://professorlotus.com/Sprites/${poke.name}.gif`
+          return {
+            ...pokemonsUrls,
+            image
+          }
       });
+
   }, [pokemonsUrls]);
 
   //3) Funções de adicionar e remover da pokedex
