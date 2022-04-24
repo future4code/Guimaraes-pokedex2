@@ -35,7 +35,9 @@ export const FooterContainer = styled.div`
         margin: auto;
     }
 
-    p > span {
+    p > span a {
+        color: #FFF;
+        text-decoration: none;
         cursor: pointer;
         :hover {
             color: yellow;
