@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Projeto de Fixação: Pokedex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Olá Terráqueos! 🖖👽
 
-## Available Scripts
+Este é um Projeto de Fixação do curso Web Full Stack da Labenu.
 
-In the project directory, you can run:
+## 💬 Sobre o projeto:
 
-### `npm start`
+Este projeto consiste em criar uma pokedex consumindo uma API, com informações de Pokemons.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 👩‍💻 Linguagens Usadas:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* CSS;
 
-### `npm test`
+* HTML;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* JAVASCRIPT.
 
-### `npm run build`
+## 📚 Bibliotecas Usadas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* ReactJS;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔗 Link do Surge:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Pokedex](https://obsequious-tongue.surge.sh/)
 
-### `npm run eject`
+## O que funciona?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [X] Home
+    - O usuário deve ser capaz de acessar o site principal através de um botão.
+- [X] Página de Listagem de Pokemons:
+    - O usuário deve receber uma lista de pokemons vinda da API. Ele pode armazenar Pokemons em sua Pokedex clicando em cada um.    
+- [x] Pokedex
+    - O usuário deve pode ver os Pokemons que foram adicionados em sua Pokedex.
+- [X] Detalhamento do Pokemon
+    - Ao usuário deve ser possível ir para uma página de detalhes do Pokemon ao clicar no mesmo, estando tanto na Home quanto na Pokedex.    
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Instalação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para rodar o projeto na máquina local é necessário a instalação do node js:
+- [NodeJS](https://nodejs.org/en/download/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🧭 Rodando a aplicação web
+Tendo o node js instalado, efetue o comando para instalar as dependências necessários para rodar o projeto localmente:
+```
+npm install 
+```
+<br/>
 
-## Learn More
+Pós instalação das dependências, execute o comando necessário para rodar o projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br/>
 
-### Code Splitting
+Por padrão a aplicação rodará localmente na porta 3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br/>
 
-### Analyzing the Bundle Size
+### Créditos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Caio Ramos - 👋🏽
+* Lucas Aversi - 👋🏽
+* Renan Arimatea - 👋🏽
 
-### Making a Progressive Web App
+## 📷 Screenshots 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Captura de tela 01](src/Assets/screenshots/Captura1.png)
+![Captura de tela 02](src/Assets/screenshots/Captura2.png)
+![Captura de tela 03](src/Assets/screenshots/Captura3.png)
+![Captura de tela 04](src/Assets/screenshots/Captura4.png)
+![Captura de tela 05](src/Assets/screenshots/Captura5.png)
+![Captura de tela 06](src/Assets/screenshots/Captura6.png)
+![Captura de tela 07](src/Assets/screenshots/Captura7.png)
+![Captura de tela 08](src/Assets/screenshots/Captura8.png)
+![Captura de tela 09](src/Assets/screenshots/Captura9.png)
+![Captura de tela 10](src/Assets/screenshots/Captura10.png)
