@@ -35,6 +35,13 @@ export const FooterContainer = styled.div`
         margin: auto;
     }
 
+    span{
+        color: #FFF;
+        font-family: 'Roboto Mono', monospace;;
+        font-size: 1em;
+        margin: auto;
+    }
+
     p > span a {
         color: #FFF;
         text-decoration: none;
@@ -42,6 +49,14 @@ export const FooterContainer = styled.div`
         :hover {
             color: yellow;
         }
+    }
+
+    @media (max-width: 757px) {
+        height: 10vh;
+         p{
+             display: none;
+         }
+               
     }
 
 `

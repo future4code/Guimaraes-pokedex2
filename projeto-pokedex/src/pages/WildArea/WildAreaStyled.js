@@ -18,6 +18,22 @@ export const PokeContainer = styled.div`
         display: none;
     }
 
+    @media (max-width: 900px){
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    @media (max-width: 375px){
+        height: auto;
+
+    }
+
+    
+
+
+
 `
 
 export const PokeCardContainer = styled.div`
@@ -27,8 +43,31 @@ export const PokeCardContainer = styled.div`
     width: 43vw;
     display: flex;
     padding: 0 1em;
-
     box-shadow: 0 10px 10px gray;
+    
+
+
+    @media (max-width: 900px){
+        width: 85vw;
+
+    }
+
+    @media (max-width: 600px){
+        width: 70vw;
+
+    }
+
+    
+    @media (max-width: 375px){
+        width:  75vw;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    
 `
 
 
@@ -66,6 +105,21 @@ export const PokeArea = styled.div`
         font-size: 1.2em;
         font-weight: 900;
     }
+
+    @media (max-width: 900px){
+        width: 35vw;
+
+    }
+    @media (max-width: 600px){
+        width: 35vw;
+
+    }
+
+    @media (max-width: 375px){
+        width: 65vw;
+        height: auto;
+
+    }
    
 `
 
@@ -93,6 +147,16 @@ export const PokeBackArea = styled.div`
     p > span {
         font-weight: 600;
         color: wheat;
+    }
+
+    @media (max-width: 900px){
+        width: 35vw;
+
+    }
+
+    @media (max-width: 375px){
+        width: 65vw;
+        height: auto;
     }
 
 `
@@ -126,6 +190,8 @@ export const PokeBtn = styled.div`
             cursor: pointer;
         }
     }
+
+
 `
 
 export const PaginationBox = styled.div `
