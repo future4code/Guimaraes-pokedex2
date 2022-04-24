@@ -23,6 +23,18 @@ export const PokedexBox = styled.div`
         display: none;
     }
 
+    @media (max-width: 900px){
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    @media (max-width: 375px){
+        height: auto;
+
+    }
+
 `
 
 export const PokeContainer = styled.div`
@@ -41,6 +53,19 @@ export const PokeContainer = styled.div`
         display: none;
     }
 
+    @media (max-width: 900px){
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    @media (max-width: 375px){
+        height: auto;
+
+    }
+
+
 `
 
 export const PokeCardContainer = styled.div`
@@ -50,6 +75,24 @@ export const PokeCardContainer = styled.div`
     display: flex;
     padding: 0 1em;
     box-shadow: 0 10px 10px gray;
+
+    @media (max-width: 900px){
+        width: 85vw;
+        height: 70vh;
+
+
+    }
+
+    @media (max-width: 600px){
+        width:  75vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2vh;
+    }
+
+    
+
 `
 
 export const PokeArea = styled.div`
@@ -114,6 +157,27 @@ export const PokeArea = styled.div`
             cursor: pointer;
         }
     }
+
+    @media (max-width: 900px){
+        width: 35vw;
+        height: 57vh;
+
+
+    }
+    @media (max-width: 600px){
+        width: 55vw;
+        height: auto;
+        
+
+        
+
+    }
+
+    @media (max-width: 375px){
+        width: 65vw;
+        height: auto;
+
+    }
 `
 
 export const PokeBackArea = styled.div`
@@ -140,6 +204,25 @@ export const PokeBackArea = styled.div`
     p > span {
         font-weight: 600;
         color: wheat;
+    }
+
+    @media (max-width: 900px){
+        width: 35vw;
+        height: 57vh;
+
+
+    }
+    @media (max-width: 600px){
+        width: 55vw;
+        height: auto;
+
+
+    }
+
+    @media (max-width: 375px){
+        width: 65vw;
+        height: auto;
+
     }
 
 `

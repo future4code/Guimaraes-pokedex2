@@ -4,7 +4,6 @@ export const HomeBox = styled.div`
 
     min-height: 100vh;
     width: auto;
-
     text-align: center;
 `
 
@@ -97,6 +96,12 @@ export const InfoBox = styled.div`
         color: #FFF;
         font-size: 1.8em;
     }
+
+    @media (max-width: 768px){
+        width: 80vw;
+
+    }
+
 
 `
 
