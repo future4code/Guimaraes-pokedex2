@@ -7,6 +7,7 @@ export const NavbarMenu = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    height: 9vh;
 
     border: 3px solid black;
     padding: .5em;
